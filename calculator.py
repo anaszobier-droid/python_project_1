@@ -1,8 +1,9 @@
 print("welcome to my calculator")
 
 firstnum = float(input("What is your first number: "))
-secondnum = float(input("What is your second number: "))
 operation = input("Please select one of the four available operations: (+, -, *, /)  ")
+secondnum = float(input("What is your second number: "))
+
 
 if operation == "+":
      answer = (firstnum + secondnum)
